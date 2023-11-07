@@ -1,0 +1,1 @@
+sudo docker image build -t mriffle/sphinx-readthedocs:1.0.0 -t mriffle/sphinx-readthedocs:latest .
