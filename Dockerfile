@@ -1,7 +1,7 @@
 FROM python:slim
 
 WORKDIR /docs
-COPY requirements.txt /requirements.txt
+ADD requirements.txt /requirements.txt
 
 ARG SPHINX_VERSION=7.1.2
 
